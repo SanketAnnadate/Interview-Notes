@@ -776,4 +776,4 @@ No Extra DOM Node
 
 # Related Notes
 
-- [[📖 00. ReactJs]]
+- [[📖 ReactJs]]
