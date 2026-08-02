@@ -167,7 +167,7 @@
 │   ├── [[Optimistic Updates]]
 │   ├── [[Error Handling]]
 │   └── [[Caching]]
-│%%
+│
 ├── 📖 15. Testing
 │   ├── [[Jest]]
 │   ├── [[React Testing Library]]
@@ -227,7 +227,7 @@
 │   └── [[React Compiler]]
 │
 ├── 📖 21. Interview Questions
-│   ├── [[React Beginner Questions]]
+│   ├── [[📖 React Beginner Questions]]
 │   ├── [[React Intermediate Questions]]
 │   ├── [[React Senior Questions]]
 │   ├── [[React Architect Questions]]
@@ -246,7 +246,7 @@
     ├── [[Netflix React Questions]]
     ├── [[Uber React Questions]]
     ├── [[OpenAI React Questions]]
-    └── [[System Design using React]]%%
+    └── [[System Design using React]]
 
 
 
