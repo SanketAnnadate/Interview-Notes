@@ -11,14 +11,12 @@
             "id": "6eb5948c8fbe1b85",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ReactJs/📖 ReactJs.md",
-                "mode": "source",
-                "source": false
+                "file": "Java/coreJava.pdf"
               },
-              "icon": "lucide-file",
-              "title": "📖 ReactJs"
+              "icon": "lucide-file-text",
+              "title": "coreJava"
             }
           }
         ]
@@ -159,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReactJs/📖 ReactJs.md",
+                "file": "Java/coreJava.pdf",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -214,11 +212,14 @@
   },
   "active": "6eb5948c8fbe1b85",
   "lastOpenFiles": [
+    "ReactJs/📖 ReactJs.md",
+    "Spring boot/springboot.pdf",
+    "Java/coreJava.pdf",
+    "Java/springboot.pdf",
     "ReactJs/📁 01. Fundamentals/React Interview Roadmap.md",
     "ReactJs/📁 01. Fundamentals/Features of React.md",
     "Features of React.md",
     "ReactJs/📁 02. Components/Components.md",
-    "ReactJs/📖 ReactJs.md",
     "ReactJs/📖 21. Interview Questions/📖 React Beginner Questions.md",
     "Untitled.md",
     "ReactJs/📖 21. Interview Questions/How to render list of data.md",
@@ -247,10 +248,6 @@
     "Spring boot",
     "ReactJs/📖 18. Next.js",
     "ReactJs/📖 17. React 19",
-    "ReactJs/📖 16. Security",
-    "ReactJs/📖 15. Testing",
-    "ReactJs/📖 14. API Calls",
-    "ReactJs/📖 11. Context API/Context API.md",
     "ReactJs/Pasted image 20260802135144.png",
     "Untitled.canvas"
   ]
