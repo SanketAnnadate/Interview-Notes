@@ -924,14 +924,4 @@ console.log(
 
 # Related Notes
 
-- [[State]]
-- [[useState]]
-- [[Synthetic Events]]
-- [[Handling Buttons]]
-- [[Forms in React]]
-- [[Controlled Components]]
-- [[Uncontrolled Components]]
-- [[useRef]]
-- [[Validation]]
-- [[React Hook Form]]
-- [[Formik]]
+- 

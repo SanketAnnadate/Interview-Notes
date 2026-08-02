@@ -1049,14 +1049,4 @@ Instead, pass the function reference or wrap it in an arrow function.
 
 # Related Notes
 
-- [[State]]
-- [[Updating State]]
-- [[useState]]
-- [[Synthetic Events]]
-- [[Conditional Rendering]]
-- [[Components]]
-- [[Props]]
-- [[React Rendering]]
-- [[Reconciliation]]
-- [[Performance Optimization]]
-- [[useCallback]]
+- 

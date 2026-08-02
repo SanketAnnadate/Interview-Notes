@@ -5,3 +5,4 @@
 [[How to handle inputs in react]]
 [[Explain lifecycle methhod in react]]
 [[How to manage loading state]]
+[[What is prop drilling and how to avoid it]]
