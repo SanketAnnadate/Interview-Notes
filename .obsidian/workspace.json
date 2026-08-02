@@ -11,10 +11,14 @@
             "id": "6eb5948c8fbe1b85",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/📁 01. Fundamentals/Features of React.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Features of React"
             }
           }
         ]
@@ -208,8 +212,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "055aeda80a7bae0f",
+  "active": "6eb5948c8fbe1b85",
   "lastOpenFiles": [
+    "Features of React.md",
+    "ReactJs/📁 01. Fundamentals/Features of React.md",
     "ReactJs",
     "ReactJs/📖 22. Company Specific",
     "ReactJs/📖 21. Interview Questions/📖 React Beginner Questions.md",
@@ -236,7 +242,6 @@
     "ReactJs/📖 15. Testing",
     "ReactJs/📖 14. API Calls/Fetch API.md",
     "ReactJs/📖 14. API Calls",
-    "ReactJs/📖 13. Routing",
     "ReactJs/📖 11. Context API/Context API.md",
     "ReactJs/📖 10. Performance/useCallBack.md",
     "ReactJs/📖 09. Rendering/Virtual DOM.md",
@@ -245,7 +250,6 @@
     "ReactJs/📖 08. Hooks/Hooks.md",
     "ReactJs/📁 05. State/Why not update state directly.md",
     "ReactJs/📁 05. State/State.md",
-    "ReactJs/📁 04. Props/Props.md",
     "ReactJs/Pasted image 20260802132139.png",
     "ReactJs/Pasted image 20260802135144.png",
     "Untitled.canvas"
