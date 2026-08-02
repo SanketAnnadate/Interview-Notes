@@ -895,3 +895,9 @@ Use **State** for data that belongs to and changes within the component.
 # Related Notes
 
 - [[States vs Props]]
+- [[Props]]
+    ↔ [[Children Prop]]
+    ↔ [[Default props]]
+    ↔ [[Prop Drilling]]
+    ↔ [[Context API]]
+    ↔ [[Props vs State]]

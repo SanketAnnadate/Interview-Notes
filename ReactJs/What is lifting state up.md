@@ -806,12 +806,5 @@ Use Context API when many deeply nested components need the same data and prop d
 
 # Related Notes
 
-- [[State]]
-- [[Props]]
-- [[Props vs State]]
-- [[How to Update State in React]]
-- [[Prop Drilling]]
-- [[Context API]]
-- [[useState]]
-- [[React Component Architecture]]
+- 
 ```

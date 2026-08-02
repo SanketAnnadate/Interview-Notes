@@ -633,3 +633,12 @@ JSX accepts only expressions, not statements like `if`. Use a ternary operator o
 | `for` | `htmlFor` |
 | Purpose | Easier UI development |
 
+---
+
+# Related Notes
+
+[[JSX]]
+    ↔ [[Components]]
+    ↔ [[Fragments]]
+    ↔ [[Rendering]]
+    ↔ [[Virtual DOM]]

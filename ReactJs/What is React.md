@@ -33,7 +33,3 @@ Your banking application should update only the account balance after a transact
 React updates only the affected component using the Virtual DOM and reconciliation process, resulting in faster rendering and a better user experience.
 
 ---
-
-## Related Notes
-
-[[Features]]

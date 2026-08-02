@@ -1,0 +1,5 @@
+[[Virtual DOM]]
+    ↔ [[Reconciliation]]
+    ↔ [[Fiber]]
+    ↔ [[Rendering]]
+    ↔ [[Performance]]

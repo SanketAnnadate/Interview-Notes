@@ -466,4 +466,10 @@ Consider splitting when:
 
 # Related Notes
 
-- [[Nested Component]]
+- [[Nested Components]]
+- [[Components]]
+    ↔ [[Props]]
+    ↔ [[State]]
+    ↔ [[Hooks]]
+    ↔ [[Composition]]
+    ↔ [[Lifecycle]]
