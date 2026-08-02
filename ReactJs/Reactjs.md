@@ -1,4 +1,4 @@
-
+p
 ## Related Notes
 [[Styling]]
 
@@ -44,7 +44,7 @@
 ├── 📖 04. Props
 │   ├── [[Props]]
 │   ├── [[Children Prop]]
-│   ├── [[Default Props]]
+│   ├── [[Default props]]
 │   ├── [[Prop Drilling]]
 │   ├── [[Props Validation]]
 │   ├── [[Passing Functions as Props]]
