@@ -1,0 +1,7 @@
+[[How to render list of data]]
+[[What is key prop]]
+[[Why  indexes for keys are not recommended ]]
+[[How to handle buttons in react]]
+[[How to handle inputs in react]]
+[[Explain lifecycle methhod in react]]
+[[How to manage loading state]]

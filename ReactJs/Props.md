@@ -895,6 +895,7 @@ Use **State** for data that belongs to and changes within the component.
 # Related Notes
 
 - [[States vs Props]]
+- [[What is key prop]]
 - [[Props]]
     ↔ [[Children Prop]]
     ↔ [[Default props]]

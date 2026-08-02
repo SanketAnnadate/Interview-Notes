@@ -467,6 +467,7 @@ Consider splitting when:
 # Related Notes
 
 - [[Nested Components]]
+- [[Condinationally render]]
 - [[Components]]
     ↔ [[Props]]
     ↔ [[State]]

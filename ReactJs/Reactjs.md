@@ -1,4 +1,5 @@
 ## Related Notes
+[[Styling]]
 
 📘 ReactJS Interview Handbook
 │
@@ -42,7 +43,7 @@
 ├── 📖 04. Props
 │   ├── [[Props]]
 │   ├── [[Children Prop]]
-│   ├── [[Default props]]
+│   ├── [[Default Props]]
 │   ├── [[Prop Drilling]]
 │   ├── [[Props Validation]]
 │   ├── [[Passing Functions as Props]]

@@ -22,6 +22,146 @@
             }
           },
           {
+            "id": "4ecbb9f557de09a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/Components.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Components"
+            }
+          },
+          {
+            "id": "9a1a12f6a1c73bcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/React Beginner Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Beginner Questions"
+            }
+          },
+          {
+            "id": "bdc0754c18648508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/React Beginner Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Beginner Questions"
+            }
+          },
+          {
+            "id": "5f2b51ec5c9965e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/React Beginner Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Beginner Questions"
+            }
+          },
+          {
+            "id": "8b724f086ab14811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/React Beginner Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Beginner Questions"
+            }
+          },
+          {
+            "id": "c6d32471d49212f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/React Beginner Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Beginner Questions"
+            }
+          },
+          {
+            "id": "a93ad8bd8b6b1413",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/React Beginner Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Beginner Questions"
+            }
+          },
+          {
+            "id": "ba8579a2955d29d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/React Beginner Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Beginner Questions"
+            }
+          },
+          {
+            "id": "d8d7f299da5d401f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/React Beginner Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Beginner Questions"
+            }
+          },
+          {
+            "id": "0e25de10a2dcb7df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/Props.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Props"
+            }
+          },
+          {
             "id": "72a9d18d674746f8",
             "type": "leaf",
             "state": {
@@ -102,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -164,7 +304,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 235.5
   },
   "right": {
     "id": "6830b7fc6b1326c7",
@@ -240,6 +380,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ReactJs/Props.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -273,7 +414,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -294,35 +435,37 @@
   },
   "active": "055aeda80a7bae0f",
   "lastOpenFiles": [
-    "ReactJs",
+    "ReactJs/How to manage loading state.md",
+    "ReactJs/Pasted image 20260802135144.png",
+    "ReactJs/React Beginner Questions.md",
     "ReactJs/Reactjs.md",
+    "ReactJs/Fetch API.md",
+    "ReactJs/useEffect.md",
+    "ReactJs/useState.md",
+    "ReactJs/Hooks.md",
+    "ReactJs/Explain lifecycle methhod in react.md",
+    "ReactJs/How to handle inputs in react.md",
+    "ReactJs/Pasted image 20260802132139.png",
+    "ReactJs/How to handle buttons in react.md",
+    "ReactJs/Why  indexes for keys are not recommended.md",
+    "ReactJs/What is lifting state up.md",
+    "ReactJs/What is React.md",
+    "ReactJs/Why not update state directly.md",
+    "ReactJs/React Interview Roadmap.md",
+    "Untitled.md",
+    "ReactJs/What is key prop.md",
+    "ReactJs/Props.md",
+    "ReactJs/How to render list of data.md",
+    "ReactJs/Condinationally render.md",
+    "ReactJs/Components.md",
+    "ReactJs/Styling.md",
+    "ReactJs/Fragments.md",
+    "ReactJs",
     "ReactJs/Virtual DOM.md",
     "ReactJs/State.md",
-    "ReactJs/Props.md",
-    "ReactJs/Children Prop.md",
-    "ReactJs/Children Prop.md",
-    "02. Components.md",
-    "ReactJs/Components.md",
-    "ReactJs/Nested Components.md",
-    "ReactJs/Nested Components.md",
-    "ReactJs/JSX.md",
-    "ReactJs/What is React.md",
-    "01. Fundamentals.md",
-    "ReactJs/Fragments.md",
-    "ReactJs/Default props.md",
-    "ReactJs/Why not update state directly.md",
-    "ReactJs/What is lifting state up.md",
-    "Excalidraw/Drawing 2026-08-02 08.50.35.excalidraw.md",
     "Excalidraw",
-    "Excalidraw/Drawing 2026-08-02 08.46.16.excalidraw.md",
-    "ReactJs/States vs Props.md",
-    "Excalidraw/Drawing 2026-08-02 08.08.59.excalidraw.md",
-    "02-08-2026.md",
     "Untitled 1.base",
     "Untitled.base",
-    "Untitled.canvas",
-    "ReactJs/Features.md",
-    "202608020226.md",
-    "202608020224.md"
+    "Untitled.canvas"
   ]
 }
