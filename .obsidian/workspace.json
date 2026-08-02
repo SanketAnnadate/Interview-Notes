@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReactJs/📁 01. Fundamentals/Features of React.md",
+                "file": "ReactJs/📖 ReactJs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Features of React"
+              "title": "📖 ReactJs"
+            }
+          },
+          {
+            "id": "85c9ff2b956766da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/📖 11. Context API/useContext.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "useContext"
+            }
+          },
+          {
+            "id": "30264b36bcc5f5f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/📖 21. Interview Questions/What is prop drilling and how to avoid it.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What is prop drilling and how to avoid it"
+            }
+          },
+          {
+            "id": "b9fb80f63861f2ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/📖 11. Context API/Consumer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Consumer"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,16 +255,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6eb5948c8fbe1b85",
+  "active": "30264b36bcc5f5f1",
   "lastOpenFiles": [
-    "Features of React.md",
+    "Context API Consumer.md",
+    "ReactJs/📖 21. Interview Questions/What is prop drilling and how to avoid it.md",
+    "Context API Provider.md",
+    "ReactJs/📖 21. Interview Questions/📖 React Beginner Questions.md",
+    "How do you use multiple Context in a single component.md",
+    "ReactJs/📖 11. Context API/useContext.md",
+    "ReactJs/📖 ReactJs.md",
+    "ReactJs/📖 11. Context API/Consumer.md",
+    "ReactJs/📖 11. Context API/Provider.md",
+    "ReactJs/📁 04. Props/Props.md",
+    "ReactJs/📖 11. Context API/Context API.md",
     "ReactJs/📁 01. Fundamentals/Features of React.md",
+    "Features of React.md",
     "ReactJs",
     "ReactJs/📖 22. Company Specific",
-    "ReactJs/📖 21. Interview Questions/📖 React Beginner Questions.md",
     "ReactJs/📖 21. Interview Questions/Why  indexes for keys are not recommended.md",
     "ReactJs/📖 21. Interview Questions/What is lifting state up.md",
-    "ReactJs/📖 21. Interview Questions/What is prop drilling and how to avoid it.md",
     "ReactJs/📖 21. Interview Questions/What is key prop.md",
     "ReactJs/📖 21. Interview Questions/Update State.md",
     "ReactJs/📖 21. Interview Questions/Styling.md",
@@ -240,16 +292,7 @@
     "ReactJs/📖 17. React 19",
     "ReactJs/📖 16. Security",
     "ReactJs/📖 15. Testing",
-    "ReactJs/📖 14. API Calls/Fetch API.md",
     "ReactJs/📖 14. API Calls",
-    "ReactJs/📖 11. Context API/Context API.md",
-    "ReactJs/📖 10. Performance/useCallBack.md",
-    "ReactJs/📖 09. Rendering/Virtual DOM.md",
-    "ReactJs/📖 08. Hooks/useEffect.md",
-    "ReactJs/📖 08. Hooks/useState.md",
-    "ReactJs/📖 08. Hooks/Hooks.md",
-    "ReactJs/📁 05. State/Why not update state directly.md",
-    "ReactJs/📁 05. State/State.md",
     "ReactJs/Pasted image 20260802132139.png",
     "ReactJs/Pasted image 20260802135144.png",
     "Untitled.canvas"

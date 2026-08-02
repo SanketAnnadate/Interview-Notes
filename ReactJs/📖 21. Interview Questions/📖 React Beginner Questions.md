@@ -12,3 +12,4 @@
 - [[Condinationally render]]
 - [[export and import]]
 - [[How to render list of data]]
+- [[How do you use multiple Context in a single component]]
