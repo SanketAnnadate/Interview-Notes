@@ -582,3 +582,4 @@ Answer
 - [[CallBack]]
 - [[Why not update state directly]]
 - [[States vs Props]]
+- [[What is lifting state up]]
