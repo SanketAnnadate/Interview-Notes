@@ -100,6 +100,7 @@ p
 │   ├── [[useSyncExternalStore]]
 │   ├── [[Custom Hooks]]
 │   └── [[Rules of Hooks]]
+[[forwardRef]]
 │
 ├── 📖 09. Rendering
 │   ├── [[Rendering]]
@@ -257,11 +258,7 @@ p
 
 
 
-[[Hooks]]
-    ↔ [[State]]
-    ↔ [[Effects]]
-    ↔ [[Rendering]]
-    ↔ [[Performance]]
+
 
 
 

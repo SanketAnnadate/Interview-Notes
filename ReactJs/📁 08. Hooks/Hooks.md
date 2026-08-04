@@ -1056,4 +1056,8 @@ Use `useReducer` because the state logic is complex and centralized.
 
 # Related Notes
 
-- 
+- [[Hooks]]
+    ↔ [[State]]
+    ↔ [[Effects]]
+    ↔ [[Rendering]]
+    ↔ [[Performance]]

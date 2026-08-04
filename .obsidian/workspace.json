@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "8d5d9917fe2b9ff6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "forwardRef.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "forwardRef"
+            }
+          },
+          {
             "id": "4c4f1ec1857ba8d3",
             "type": "leaf",
             "state": {
@@ -67,10 +81,14 @@
             "id": "71e7777a6b8ddb77",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "ReactJs/📁 21. Interview Questions/How can useRef be used to store mutable values.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "How can useRef be used to store mutable values"
             }
           },
           {
@@ -88,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -279,13 +297,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "71e7777a6b8ddb77",
+  "active": "8d5d9917fe2b9ff6",
   "lastOpenFiles": [
-    "Rules of Hooks.md",
+    "forwardRef.md",
     "ReactJs/📖 ReactJs.md",
-    "ReactJs/📁 08. Hooks/Hooks.md",
-    "ReactJs/📁 08. Hooks/useRef.md",
     "ReactJs/📁 21. Interview Questions/How can useRef be used to store mutable values.md",
+    "ReactJs/📁 21. Interview Questions/Untitled.md",
+    "ReactJs/📁 08. Hooks/useRef.md",
+    "ReactJs/📁 08. Hooks/Hooks.md",
+    "Rules of Hooks.md",
     "ReactJs/📁 20. Advanced React/How do you Handle side effects with useReducer.md",
     "ReactJs/📁 21. Interview Questions/Styling.md",
     "ReactJs/📁 01. Fundamentals/Features of React.md",
@@ -307,8 +327,6 @@
     "ReactJs",
     "ReactJs/📁 22. Company Specific",
     "ReactJs/📁 21. Interview Questions/Why  indexes for keys are not recommended.md",
-    "ReactJs/📁 21. Interview Questions/What is lifting state up.md",
-    "ReactJs/📁 21. Interview Questions/What is key prop.md",
     "ReactJs/📁 21. Interview Questions",
     "ReactJs/📁 20. Advanced React",
     "ReactJs/📁 19. Design Patterns",
