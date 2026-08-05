@@ -374,14 +374,5 @@ React's **One-Way Data Flow**. Child components cannot directly modify parent st
 
 # Related Notes
 
-- [[Virtual DOM]]
-- [[JSX]]
-- [[Components]]
-- [[Props]]
-- [[State]]
-- [[Hooks]]
-- [[React Fiber]]
-- [[Reconciliation]]
-- [[Performance Optimization]]
-- [[export and import]]
+- 
 ```
