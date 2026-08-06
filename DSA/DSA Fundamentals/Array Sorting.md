@@ -2,590 +2,490 @@
 tags:
   - dsa
   - sorting
-  - fundamentals
-priority: ⭐⭐⭐⭐⭐
+  - bubble-sort
+priority: ⭐⭐
 difficulty: Easy
 status: Completed
 ---
 
-# 📘 Introduction to Sorting
+# 📘 Bubble Sort (Optimized)
 
-> **Sorting** is the process of arranging data in a specific order (Ascending or Descending). It is one of the most fundamental concepts in Data Structures and Algorithms and is used in almost every software system.
-
----
-
-# 🎯 Learning Objectives
-
-After completing this topic, you should be able to:
-
-- Understand what sorting is.
-- Explain why sorting is important.
-- Differentiate between sorting algorithms.
-- Choose the right sorting algorithm.
-- Analyze Time & Space Complexity.
-- Answer sorting-related interview questions.
+> Bubble Sort repeatedly compares **adjacent elements** and swaps them if they are in the wrong order. After each pass, the **largest unsorted element moves to its correct position**.
 
 ---
 
-# 📖 Definition
+# ✅ Java Implementation
 
-Sorting is the process of arranging elements in a particular order.
+```java
+public static void bubbleSort(int[] arr) {
 
-There are two common orders:
+    int n = arr.length;
 
-### Ascending Order
+    for (int i = 0; i < n - 1; i++) {
 
-```
-1 2 3 4 5
-```
+        boolean swapped = false;
 
-### Descending Order
+        for (int j = 0; j < n - i - 1; j++) {
 
-```
-5 4 3 2 1
-```
+            if (arr[j] > arr[j + 1]) {
 
----
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
 
-# 🌍 Real Life Examples
+                swapped = true;
+            }
+        }
 
-## Example 1: Books in Library
-
-Books are arranged alphabetically.
-
-```
-Algorithms
-Database
-Java
-Operating System
-Python
-```
-
-Searching becomes much easier.
-
----
-
-## Example 2: Contacts in Mobile
-
-```
-Amit
-
-John
-
-Rahul
-
-Steve
-
-Zoya
-```
-
-Imagine finding "Rahul" if contacts were random.
-
----
-
-## Example 3: Student Marks
-
-Before Sorting
-
-```
-56
-91
-72
-45
-88
-```
-
-After Sorting
-
-```
-45
-56
-72
-88
-91
-```
-
-Finding Highest
-
-↓
-
-91
-
-Finding Lowest
-
-↓
-
-45
-
-Finding Median
-
-↓
-
-72
-
----
-
-# Why Do We Need Sorting?
-
-Sorting makes many operations faster.
-
-Without Sorting
-
-```
-Searching
-
-↓
-
-Linear Search
-
-↓
-
-O(n)
-```
-
-With Sorting
-
-```
-Searching
-
-↓
-
-Binary Search
-
-↓
-
-O(log n)
+        // Stop if the array is already sorted
+        if (!swapped) {
+            break;
+        }
+    }
+}
 ```
 
 ---
 
-# Applications of Sorting
+# 🔍 Code Explanation
 
-Sorting is used in
+## Step 1: Get Array Length
 
-- Searching
-- Binary Search
-- Databases
-- File Systems
-- Data Analysis
-- E-commerce Websites
-- Banking Systems
-- Leaderboards
-- Scheduling
-- Data Compression
-- Machine Learning
-- Operating Systems
+```java
+int n = arr.length;
+```
 
----
-
-# Types of Sorting
-
-## Comparison-Based Sorting
-
-Elements are compared with each other.
-
-Examples
-
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
-- Heap Sort
-
----
-
-## Non-Comparison Sorting
-
-Sorting without direct comparison.
-
-Examples
-
-- Counting Sort
-- Radix Sort
-- Bucket Sort
-
----
-
-# Classification of Sorting Algorithms
-
-## Based on Memory
-
-### In-Place Sorting
-
-Uses very little extra memory.
-
-Examples
-
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Quick Sort
-- Heap Sort
-
----
-
-### Out-of-Place Sorting
-
-Uses additional memory.
+Stores the size of the array.
 
 Example
 
-- Merge Sort
+```
+Array
+
+5 1 4 2 8
+
+↓
+
+n = 5
+```
 
 ---
 
-## Based on Stability
+## Step 2: Outer Loop
 
-### Stable Sorting
+```java
+for (int i = 0; i < n - 1; i++)
+```
 
-Equal elements keep their original order.
+**Purpose**
 
-Examples
-
-- Bubble Sort
-- Insertion Sort
-- Merge Sort
-
----
-
-### Unstable Sorting
-
-Equal elements may change order.
-
-Examples
-
-- Selection Sort
-- Quick Sort
-- Heap Sort
-
----
-
-## Based on Technique
-
-### Exchange Sort
-
-Swap elements.
+- Controls the number of passes.
+- After every pass, one largest element reaches its correct position.
 
 Example
 
-Bubble Sort
+```
+Pass 1
+
+5 1 4 2 8
+
+↓
+
+1 4 2 5 8
+```
+
+Largest element
+
+```
+8
+```
+
+is fixed.
+
+Maximum Passes
+
+```
+n - 1
+```
 
 ---
 
-### Selection Sort
+## Step 3: Swapped Flag
 
-Find minimum element.
+```java
+boolean swapped = false;
+```
 
----
+**Purpose**
 
-### Insertion Sort
+Checks whether any swap happened during the current pass.
 
-Insert element into sorted portion.
+If no swap occurs,
 
----
+```
+Array is already sorted.
+```
 
-### Divide & Conquer
-
-Split problem into smaller problems.
-
-Examples
-
-- Merge Sort
-- Quick Sort
+Algorithm stops early.
 
 ---
 
-### Heap Based
+## Step 4: Inner Loop
 
-Use Heap Data Structure.
+```java
+for (int j = 0; j < n - i - 1; j++)
+```
+
+**Purpose**
+
+Compare adjacent elements.
+
+```
+arr[j]
+
+↓
+
+arr[j+1]
+```
 
 Example
 
-Heap Sort
-
----
-
-# Learning Roadmap
-
-## Beginner ⭐
-
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-
----
-
-## Intermediate ⭐⭐⭐
-
-- Merge Sort
-- Quick Sort
-
----
-
-## Advanced ⭐⭐⭐⭐
-
-- Heap Sort
-
----
-
-## Expert ⭐⭐⭐⭐⭐
-
-- Counting Sort
-- Radix Sort
-- Bucket Sort
-- Quick Select
-- External Sorting
-
----
-
-# Comparison of Sorting Algorithms
-
-| Algorithm | Best | Average | Worst | Space | Stable | In Place |
-|------------|------|----------|--------|---------|----------|-----------|
-| Bubble | O(n) | O(n²) | O(n²) | O(1) | ✅ | ✅ |
-| Selection | O(n²) | O(n²) | O(n²) | O(1) | ❌ | ✅ |
-| Insertion | O(n) | O(n²) | O(n²) | O(1) | ✅ | ✅ |
-| Merge | O(n log n) | O(n log n) | O(n log n) | O(n) | ✅ | ❌ |
-| Quick | O(n log n) | O(n log n) | O(n²) | O(log n) | ❌ | ✅ |
-| Heap | O(n log n) | O(n log n) | O(n log n) | O(1) | ❌ | ✅ |
-
----
-
-# Which Sorting Algorithm Should You Use?
-
 ```
-Small Array
-        ↓
-Insertion Sort
+5 1
 
-----------------------
+↓
 
-Nearly Sorted Array
-        ↓
-Insertion Sort
-
-----------------------
-
-Need Stable Sorting
-        ↓
-Merge Sort
-
-----------------------
-
-Need Fast Average Performance
-        ↓
-Quick Sort
-
-----------------------
-
-Need Guaranteed O(n log n)
-        ↓
-Merge Sort
-Heap Sort
-
-----------------------
-
-Need Top K Elements
-        ↓
-Heap
+Swap
 ```
 
 ---
 
-# Google Interview Perspective
+### Why `n - i - 1`?
 
-For coding interviews, don't spend equal time on every sorting algorithm.
+After every pass,
 
-## ⭐⭐⭐⭐⭐ Must Master
+one largest element is already fixed.
 
-- Merge Sort
-- Quick Sort
-- Heap Sort
+```
+Pass 1
 
----
+1 4 2 5 8
 
-## ⭐⭐⭐ Know Well
+↑
+No need to compare 8 again.
+```
 
-- Insertion Sort
+Therefore,
 
----
+```
+Inner Loop
 
-## ⭐⭐ Basic Understanding
+↓
 
-- Bubble Sort
-- Selection Sort
-
----
-
-# Where Sorting Appears in Interviews
-
-Sorting is frequently used in problems involving:
-
-- Merge Intervals
-- Two Sum (Sorted)
-- Three Sum
-- Four Sum
-- Binary Search
-- Kth Largest Element
-- Top K Frequent Elements
-- Meeting Rooms
-- Activity Selection
-- Merge K Sorted Lists
-- Count Inversions
-- Reverse Pairs
-- Closest Points
-- Skyline Problems
+Becomes smaller every pass.
+```
 
 ---
 
-# Java Sorting APIs
-
-## Arrays.sort()
+## Step 5: Compare
 
 ```java
-Arrays.sort(arr);
+if (arr[j] > arr[j + 1])
 ```
 
-Time Complexity
+If left element is greater than right element,
+
+swap them.
+
+Example
 
 ```
-O(n log n)
-```
+5 2
 
-Primitive arrays use a Dual-Pivot Quick Sort implementation.
+↓
+
+Swap
+
+↓
+
+2 5
+```
 
 ---
 
-## Collections.sort()
+## Step 6: Swap
 
 ```java
-Collections.sort(list);
+int temp = arr[j];
+arr[j] = arr[j + 1];
+arr[j + 1] = temp;
 ```
 
-Uses TimSort for objects.
+Temporary variable stores one value while swapping.
 
-Time Complexity
+Before
 
 ```
-O(n log n)
+5 2
+```
+
+After
+
+```
+2 5
 ```
 
 ---
 
-## Custom Comparator
+## Step 7: Mark Swap
 
 ```java
-Arrays.sort(arr, comparator);
+swapped = true;
 ```
 
-Useful for sorting objects based on custom logic.
+Indicates that at least one swap happened.
 
 ---
 
-# Interview Questions
+## Step 8: Early Exit
 
-Easy
+```java
+if (!swapped) {
+    break;
+}
+```
 
-- Sort an Array
-- Merge Sorted Arrays
+If no swaps occurred,
 
-Medium
+the array is already sorted.
 
-- Sort Colors
-- Kth Largest Element
-- Top K Frequent Elements
-- Merge Intervals
-
-Hard
-
-- Merge K Sorted Lists
-- Count Inversions
-- Reverse Pairs
+Stop immediately.
 
 ---
 
-# Common Mistakes
+# 📊 Dry Run
 
-❌ Choosing Bubble Sort for large arrays.
+Input
 
-❌ Forgetting stability.
+```
+5 1 4 2 8
+```
 
-❌ Forgetting extra space in Merge Sort.
+### Pass 1
 
-❌ Ignoring worst-case complexity of Quick Sort.
+```
+5 1
 
-❌ Using sorting when hashing provides a better solution.
+↓
 
----
+1 5 4 2 8
+```
 
-# Interview Tips
+```
+5 4
 
-When asked about sorting:
+↓
 
-1. Identify if sorting is actually needed.
-2. Explain why you chose a particular algorithm.
-3. Mention Time Complexity.
-4. Mention Space Complexity.
-5. Discuss Stable vs Unstable if relevant.
-6. Explain trade-offs.
+1 4 5 2 8
+```
 
----
+```
+5 2
 
-# Revision Cheat Sheet
+↓
 
-## Beginner
+1 4 2 5 8
+```
 
-✔ Bubble Sort
+```
+5 8
 
-✔ Selection Sort
+↓
 
-✔ Insertion Sort
+No Swap
+```
 
----
+Result
 
-## Intermediate
-
-✔ Merge Sort
-
-✔ Quick Sort
-
----
-
-## Advanced
-
-✔ Heap Sort
+```
+1 4 2 5 8
+```
 
 ---
 
-## Google Focus
+### Pass 2
 
-✔ Merge Sort
+```
+4 2
 
-✔ Quick Sort
+↓
 
-✔ Heap Sort
+Swap
+```
 
-✔ Partition Algorithm
+Result
 
-✔ Quick Select
-
-✔ Merge Intervals
-
-✔ Top K Problems
+```
+1 2 4 5 8
+```
 
 ---
 
-# Related Notes
+### Pass 3
 
-- [[Bubble Sort]]
+No swaps.
+
+Algorithm stops.
+
+---
+
+# ⏱️ Time Complexity
+
+| Case | Complexity | Reason |
+|------|------------|--------|
+| Best Case | **O(n)** | Already sorted, one pass only |
+| Average Case | **O(n²)** | Randomly ordered elements |
+| Worst Case | **O(n²)** | Reverse sorted array |
+
+---
+
+# 💾 Space Complexity
+
+| Complexity | Reason |
+|------------|--------|
+| **O(1)** | Uses only one temporary variable (`temp`) and one boolean (`swapped`) |
+
+---
+
+# 📈 Number of Comparisons
+
+| Pass | Comparisons |
+|------|------------:|
+| Pass 1 | n - 1 |
+| Pass 2 | n - 2 |
+| Pass 3 | n - 3 |
+| ... | ... |
+| Last Pass | 1 |
+
+Total Comparisons
+
+```
+(n-1) + (n-2) + ... + 1
+
+=
+
+n(n-1)/2
+
+=
+
+O(n²)
+```
+
+---
+
+# 🔄 Number of Swaps
+
+| Case | Swaps |
+|------|------:|
+| Best | 0 |
+| Average | Approximately n²/2 |
+| Worst | n(n-1)/2 |
+
+---
+
+# 📋 Properties
+
+| Property | Value |
+|----------|-------|
+| Algorithm Type | Comparison Sort |
+| Technique | Adjacent Swapping |
+| Stable | ✅ Yes |
+| In-place | ✅ Yes |
+| Adaptive | ✅ Yes (Optimized Version) |
+| Recursive | ❌ No |
+| Online Algorithm | ❌ No |
+
+---
+
+# 👍 Advantages
+
+- Easy to understand
+- Easy to implement
+- Stable
+- In-place
+- Adaptive (Optimized Version)
+- Good for educational purposes
+
+---
+
+# 👎 Disadvantages
+
+- Slow for large datasets
+- High number of comparisons
+- High number of swaps
+- Rarely used in production
+
+---
+
+# 💼 Interview Questions
+
+| Question | Answer |
+|----------|--------|
+| Why use `swapped`? | Stops early if the array is already sorted. |
+| Why `j < n - i - 1`? | Last `i` elements are already sorted. |
+| Why is Bubble Sort stable? | Equal elements never change their relative order. |
+| Why is Bubble Sort in-place? | Only constant extra memory is used. |
+| What is the Best Case? | O(n) |
+| What is the Worst Case? | O(n²) |
+| Space Complexity? | O(1) |
+
+---
+
+# 🧠 Memory Trick
+
+```
+Compare
+
+↓
+
+Swap
+
+↓
+
+Largest Goes Right
+
+↓
+
+Repeat
+```
+
+Remember:
+
+> **Each pass places the largest remaining element at its correct position.**
+
+---
+
+# 📝 Revision Checklist
+
+- [ ] Understand adjacent swapping
+- [ ] Know why `n - i - 1` is used
+- [ ] Explain `swapped` optimization
+- [ ] Dry run manually
+- [ ] Write code without looking
+- [ ] Explain Time Complexity
+- [ ] Explain Space Complexity
+- [ ] Explain Stable vs In-place
+- [ ] Solve Bubble Sort interview questions
+
+---
+
+# 🔗 Related Notes
+
+- [[Sorting]]
 - [[Selection Sort]]
 - [[Insertion Sort]]
 - [[Merge Sort]]
 - [[Quick Sort]]
 - [[Heap Sort]]
-- [[Stable vs Unstable Sorting]]
-- [[In-place vs Out-of-place Sorting]]
-- [[Sorting Comparison]]
-- [[Time Complexity]]
 - [[Arrays]]
+- [[Time Complexity]]
